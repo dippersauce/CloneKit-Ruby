@@ -20,8 +20,6 @@ def clone_device(device_to_rescue, client_name)
 	end
 end
 
-clone_device("/dev/sda", "alisson cooper")
-
 def format_mb(size)
   conv = ['b', 'kb', 'mb', 'gb', 'tb', 'pb', 'eb'];
   scale = 1024;
